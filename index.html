@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="drscription" content="Spotify Clone built using html, css and js" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>QuizGard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home-page">
+    <div class="top-page">
+    <div class="spaan">
+        <div class="img">
+            <img src="Hands Graduate.png" alt="">
+        </div>
+       
+        <span class="quaz">Quiz</span>
+        <span class="gard">Gard</span>
+    </div>
+
+    <div class="nav-page">
+        <ul class="nav-links">
+        <a href="#">How it works?</a>
+        <a href="#">Features</a>
+        <a href="#">About us</a>
+        <button>Login</button>
+        </ul>
+    </div>
+    </div>
+    <p id="message"></p>
+    <h2 id="question"></h2>
+    <div id="btn">
+    <span class="line">
+        <img src="images/Line 3.png">
+    </span>
+    
+    <div class="new-section">
+            <div class="para">
+        <p >Learn new concepts for each questions</p>
+            </div>
+    <span class="img-1">
+        <img src="images/Line 2.png">
+        <p class="para-2">We help you prepare for exams and quizes </p>
+        <button id="startButton" onclick="myFunction()" class="start">Start solving</button>
+    </span>
+    <span class="img-2">
+        <img src="images/g134.png">
+    </span>
+    </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h2>Your Score: <span id="score">0</span></h2>
+      <!-- <h2>High Score: <span id="high-score">0</span></h2> -->
+    </div>
+    <div id="start-page">
+      <button id="start-btn">Start Quiz</button>
+      <button id="highscore-btn">View Score Board</button>
+    </div>
+    <div id="quiz-container" style="display: none">
+      <div id="progress-bar-text">0%</div>
+      <div id="progress-bar">
+        <div id="progress-bar-fill"></div>
+      </div>
+      <p id="message"></p>
+      <h2 id="question"></h2>
+      <button class="option-btn" id="btn0"></button>
+      <button class="option-btn" id="btn1"></button>
+      <button class="option-btn" id="btn2"></button>
+      <button class="option-btn" id="btn3"></button>
+      <button id="next-btn" style="display: none">Next Question</button>
+    </div>
+    <div id="score-container" style="display: none">
+      <h2>Your Final Score: <span id="final-score"></span></h2>
+      <h2>High Score: <span id="final-high-score"></span></h2>
+    </div>
+    <div id="highscore-page" style="display: none">
+      <h2>Score Board</h2>
+      <h1>Score Board</h1>
+      <div id="highscores"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

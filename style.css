@@ -1,0 +1,142 @@
+ 
+.top-page{
+   align-items: center; 
+   justify-content: space-between;
+   display: flex;
+
+}
+a {
+    text-decoration: none;
+    color: #f0f0f0;
+  }
+  .nav-page{
+    display: flex;
+  flex-grow: 1;
+  justify-content: end;
+  align-items: center;
+  gap: 4rem;
+  }
+  .nav-links {
+    font-weight: 500;
+    display: flex;
+    gap: 2rem;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 49.08px;
+
+  }
+.spaan{
+    width: 136.47px;
+    height: 31.02px;
+    padding-bottom: 20px;
+    padding-left: 10px;  
+}
+.quaz{
+   font-family: Poppins;
+   font-size: 27px;
+   font-weight: 400;
+   line-height: 40px;
+   letter-spacing: 0em;
+   text-align: left;
+   color:#3B3B3B;
+   padding-left: 10px;
+   padding-top: 13px;
+}
+.gard{
+font-family: Roboto;
+font-size: 27px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color:#FCC822;
+
+}
+.img{
+   width: 20.19px;
+   height: 15.08px;
+   
+   padding-left: 2px; 
+   range: 20 deg;
+  
+   
+}
+
+.nav-links > button{
+width: 77.8px;
+height: 32.51px;
+top: 30.77px;
+left: 707.13px;
+border: 0.87px solid #FCC822;
+color:#FCC822;
+background-color: #FFFFFF;
+}
+.line{
+    width:fit-content;
+     top: 78.96px;
+     
+     border: 0.58px;
+    range: 0 deg;
+}
+.para{
+    font-family: Roboto;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 290.87px;
+    height: 130.63px;
+    color: #333333;
+
+}
+.para-2{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #828282;
+position: relative;
+
+left:30px;
+bottom: 40px;
+
+
+}
+.new-section{
+    padding-left: 102px;
+    padding-top: 100px;
+    display: flex;
+}
+
+.img-1{
+width: 390px;
+margin-top: 180px;
+left: 105.66px;
+border: 1.16px;
+all: -90 deg;
+ position: absolute;
+}
+.img-2{
+    width: 403.29px;
+   height: 408.07px;
+    top: 190px;
+   margin-left: 550.75px;
+   border-radius: 57.48px;
+}
+.start{
+    width: 119.6px;
+height: 37.16px;
+top: 370.4px;
+left: 102.76px;
+color:#FFFFFF;
+background-color: #FCC822;
+border: none;
+cursor: pointer;
+}
